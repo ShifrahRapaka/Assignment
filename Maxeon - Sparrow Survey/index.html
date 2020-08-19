@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap" rel="stylesheet">
+
+<link href="./styles/styles.css" type="text/css" rel="stylesheet">
+
+    
+<title>Maxeon</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+<header>
+<h1>Maxeon</h1>
+<nav>
+<ul>
+<li><button id="login" class="list">Login</button></li>
+<li><a href="Pricing.html">Pricing</a></li>
+<li><a href="Use-Cases.html">Use Cases</a></li>
+<li><a href="Features.html">Features</a></li>
+<li><a href="Products.html">Products</a></li>
+</ul>
+</nav>
+</header>
+
+<aside>
+<h1> Where words fail, Music speaks.</h1>
+</aside>
+  
+<div class="button-holder">
+<button class="buttonSty" id="cross" onclick="openForm1()"></button>
+</div>
+  
+<div class="forms">
+<div class="init-form-holder" id="myForm1">
+<div class="init-form row">
+<div class="upper">
+
+<h4>Hi There</h4>
+<p style="font-size: 15px;"> Hello Ask Us Anything, Share Your Feedback.</p>
+</div>
+
+<div class="lower1">
+<p style="font-weight: bold;">  Start a Conversation</p>
+<p style="font-size: 13px;"> The team typically replies in a few minutes.</p>
+<button class="start" onclick="openForm2()" > New Conversation </button>
+<div  id="sending"> <img src="./assets/sharp_send_white_18dp.png" width="30px" height="30px" alt="" srcset=""> </div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="chat-holder" id="myForm2" >
+<div class="chat-form row">
+<div class="upper">
+<p class="hd1u">Hi There</p>
+<p class="d2u" > The team typically replies in a few minutes.</p>
+
+</div>        
+
+<div class="lower" style="overflow-y: scroll;">
+
+</div>        
+
+<div class="brand row">          
+<img src="./assets/sparrowfavicon.png" alt="ss">
+<p>We run on SurveySparrow</p>        
+
+</div>
+
+<div class="userMsg row" >
+
+<div class="reply row-lg-9 row-md-9 row-sm-10 row-xs-10">
+<input type="text" placeholder="Write a message" id="userInput" autocomplete="off"/>
+
+</div>
+
+<div class="sub row-lg-2 row-md-2 row-sm-2 row-sm-2 row-xs-2">
+<button class="arrow" onclick="add()"><img src="./assets/send-24px.svg" alt="submit">
+</button>
+
+</div>     
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</script>
+</body>
+</html>

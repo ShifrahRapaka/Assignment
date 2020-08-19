@@ -1,0 +1,417 @@
+body {
+
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("../assets/Banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: auto;
+  background-position: absolute;
+ 
+}
+
+ #login{
+  
+      cursor:pointer;
+      background-color: #efefef;
+      display: inline-block;
+      border: none;
+      outline: none;
+     border-radius: 15px;
+	margin-top:-5px;
+      height: 30px;
+      width: 90px;
+      font-size: 15px;
+      text-align: center;
+      position:absolute;         
+  }
+#login:hover{
+color:#13A884;
+}
+nav ul{
+width:1250px;
+
+list-style-type:none;
+
+position:absolute;
+}
+nav li{
+
+display:inline;
+float:right;
+margin-top:35px;
+margin-right:20px;
+font-size:15px;
+padding:20px;
+}
+nav a:link,nav a:visited{
+text-decoration:none;
+color:white;
+text-align:center;
+}
+
+nav a:hover{
+color:black;
+}
+
+aside h1{
+color:white;
+margin-top:60px;
+margin-left:20px;
+font-size:90px;
+width:60px;
+padding:50px;
+position:absolute;
+}
+
+header h1{
+float:left;
+font-size:30px;
+margin-top:40px;
+margin-left:80px;
+padding:20px;
+color:white;
+
+position:absolute;
+}
+
+
+
+body .caption {
+  font-size: 90px;
+  color: #ecf1fb;
+  font-weight: 990;
+  line-height: 85px;
+  margin-top: 4rem;
+  -webkit-animation: mymove 3s forwards;
+          animation: mymove 3s forwards;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  padding-top: 50px;
+}
+
+
+body .buttonSty {
+  background-color: #ecf1fb;
+  height: 70px;
+  width: 70px;
+  
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border: none;
+  background-image: url(../assets/Sparrowbird.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40% 50%;
+  -webkit-box-shadow: 3px 6px 5px grey;
+          box-shadow: 3px 6px 5px grey;
+}
+
+body .buttonSty:focus {
+  border: none;
+  outline: none;
+
+}
+#sending{
+margin-left: 200px;
+   margin-top: -40px;
+   width:13px;
+   height:13px;
+   cursor:pointer;
+	
+}
+
+
+@media screen and (max-width: 480px) {
+  body .buttonSty {
+    opacity: 0.8;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  body .buttonSty {
+    height: 150px;
+    width: 150px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+  }
+}
+
+body .button-holder {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+
+@media screen and (max-width: 1080px) {
+  body .button-holder {
+    bottom: -380px;
+    right: -15rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  body .button-holder {
+    bottom: -390px;
+    right: -18rem;
+  }
+}
+
+body .forms .init-form-holder {
+  display: none;
+  background-color: #ecf1fb;
+  position: fixed;
+  bottom: 110px;
+  right: 40px;
+  height: 320px;
+  width: 390px;
+  border-radius: 7px;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  body .forms .init-form-holder {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  body .forms .init-form-holder {
+    bottom: 310px;
+    right: 140px;
+    padding-top: 10px;
+  }
+}
+
+body .forms .init-form-holder .init-form {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 50px;
+}
+
+body .forms .init-form-holder .init-form .upper {
+  background-color: #7F8AC5;
+  border-radius: 8px;
+  color: #ecf1fb;
+  padding: 25px;
+  height: 125px;
+  width: 343px;
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 480px) {
+  body .forms .init-form-holder .init-form .upper p {
+    font-size: 20px;
+  }
+}
+
+body .forms .init-form-holder .init-form .lower1 {
+  margin-top: 16px;
+  border-radius: 8px;
+  color: #0C003A;
+  padding: 22px;
+  line-height: 8px;
+  height: 80px;
+  width: 333px;
+}
+
+@media screen and (max-width: 480px) {
+  body .forms .init-form-holder .init-form .lower1 {
+    height: 180px;
+  }
+}
+
+body .forms .init-form-holder .init-form .lower1 .start {
+  background-color: #13A884;;
+  border: none;
+  color: #ecf1fb;
+  height: 50px;
+  width: 233px;
+  border-radius: 38px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 8%;
+}
+
+
+body .forms .chat-holder {
+  display: none;
+  background-color: #ecf1fb;
+  position: fixed;
+  bottom: 110px;
+  right: 40px;
+  height: 420px;
+  width: 420px;
+  border-radius: 7px;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 1080px) {
+  body .forms .chat-holder {
+    bottom: 310px;
+    right: 140px;
+    padding-top: 10px;
+  }
+}
+
+body .forms .chat-holder .chat-form {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 50px;
+}
+
+body .forms .chat-holder .chat-form .upper {
+  background-color: #7F8AC5;
+  border-radius: 8px;
+  color: #ecf1fb;
+  padding: 15px;
+  height: 100px;
+  width: 383px;
+  margin-top: 8px;
+}
+
+body .forms .chat-holder .chat-form .lower {
+  overflow-y: auto;
+  border-radius: 8px;
+  color: #ecf1fb;
+  height: 200px;
+  width: 383px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+body .forms .chat-holder .chat-form .lower .messageUser {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px;
+  background-color: #4C5AA1;
+  color: #ecf1fb;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  top: 20px;
+  right: 10px;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+body .forms .chat-holder .chat-form .lower .messageBot {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px;
+  background-color: lightgray;
+  color: #0C003A;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  top: 17px;
+  right: 10px;
+  margin-right: 90px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+body .brand {
+  padding: 0px;
+  margin: 3px;
+}
+
+body .brand img {
+  height: 15px;
+  width: 15px;
+  margin: inherit;
+}
+
+body .brand p {
+  font-size: 12px;
+  padding-left: 15px;
+  margin: inherit;
+}
+
+body .userMsg {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-top: 2px solid #ccc;
+  font-size: 16px;
+  padding: 12px 24px 12px 40px;
+  width: 400px;
+  margin-top: 0px;
+}
+
+body .userMsg input {
+  border: none;
+  outline: none;
+  width: 300px;
+  background-color: #ecf1fb;
+}
+
+body .userMsg input:focus {
+  border: none;
+  outline: none;
+}
+
+@media screen and (max-width: 480px) {
+  body .userMsg input {
+    width: 300px;
+  }
+}
+
+body .userMsg button {
+  border: none;
+  opacity: 0.6;
+}
+
+body .userMsg button:focus {
+  border: none;
+  outline: none;
+}
+
+@media screen and (max-width: 480px) {
+  body .userMsg button {
+    right: 0;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 120px;
+  color: #ecf1fb;
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    height: 350px;
+  }
+}
+
+
